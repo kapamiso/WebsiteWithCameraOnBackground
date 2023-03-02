@@ -134,7 +134,7 @@ main {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  padding: var(--page-margin);
+  padding: 2vw var(--page-margin);
 }
 
 .demo-card {
