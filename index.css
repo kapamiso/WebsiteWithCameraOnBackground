@@ -109,8 +109,8 @@ main {
   background: linear-gradient(
     160deg,
     rgba(5, 5, 5, 0.767) 0%,
-    rgba(255, 255, 255, 0) 70vh,
-    rgba(0, 0, 0, 0.774) 50%
+    rgba(255, 255, 255, 0) 30vh,
+    rgba(0, 0, 0, 0.753) 40%
   );
   display: flex;
   flex-direction: column;
