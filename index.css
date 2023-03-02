@@ -122,8 +122,7 @@ main {
     flex-wrap: nowrap;
     overflow: auto;
     scroll-snap-type: x mandatory;
-    padding: 15px;
-    margin: 0px 0px;
+    padding: 20px 15px;
   }
   .phone-gallery .demo-card {
     min-width: 250px;
