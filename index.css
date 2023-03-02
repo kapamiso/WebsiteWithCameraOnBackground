@@ -2,6 +2,7 @@
 
 :root {
   --page-margin: 5vw;
+  --page-max-width: 1920px;
 }
 
 .page-padding {
@@ -9,7 +10,9 @@
 }
 
 html {
-  background-color: rgb(175, 175, 175);
+  display: flex;
+  justify-content: center;
+  background-color: rgb(24, 24, 24);
 }
 
 html,
@@ -18,6 +21,7 @@ body {
   padding: 0px;
   font-family: "Roboto", sans-serif;
   color: white;
+  width: 100%;
 }
 
 /*First section*/
@@ -25,25 +29,30 @@ section:nth-child(1) {
   position: relative;
 }
 
-section:nth-child(1) .demo-card-gallery{
+section:nth-child(1) .demo-card-gallery {
   transform: translate(0px, 150px);
 }
 
 /*Second section*/
 section:nth-child(2) {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 60px;
   background-color: rgb(24, 24, 24);
   padding-top: 200px;
 }
 
-section:nth-child(2) div {
+section:nth-child(2) > div {
+  max-width: var(--page-max-width);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin: auto;
+}
+
+section:nth-child(2) > div > * {
   flex-grow: 1;
   width: 500px;
 }
 
-section:nth-child(3)  {
+section:nth-child(3) {
   background-color: rgb(172, 171, 171);
 }
 
@@ -58,18 +67,16 @@ h1 {
   h1 {
     font-size: 30px;
   }
-  h2{
+  h2 {
     font-size: 20px;
   }
 }
-
 
 h2 {
   margin: 0px;
   margin-top: 7px;
   font-weight: 300;
 }
-
 
 #camera,
 #camera-2 {
@@ -139,11 +146,9 @@ main {
     scroll-snap-align: center;
   }
 
-
   .banner-section {
     margin-bottom: 30vh;
   }
-
 }
 
 .demo-card-gallery {
@@ -151,6 +156,8 @@ main {
   gap: 20px;
   flex-wrap: wrap;
   padding: 2vw var(--page-margin);
+  margin: auto;
+  max-width: var(--page-max-width);
 }
 
 .demo-card {
