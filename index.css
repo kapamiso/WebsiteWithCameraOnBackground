@@ -103,6 +103,7 @@ h2 {
 .banner-section {
   padding-top: 4vh;
   margin-bottom: 40vh;
+  max-width: 500px;
 }
 
 main {
