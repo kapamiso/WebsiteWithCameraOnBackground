@@ -24,6 +24,7 @@ body {
   width: 100%;
 }
 
+
 /*First section*/
 section:nth-child(1) {
   position: relative;
@@ -108,12 +109,12 @@ h2 {
 }
 
 #camera{
-  position: sticky;
-  top: -295px;
+  position: fixed;
 }
 
 .camera-background {
-  position: fixed;
+  background-color: red;
+  position: absolute;
   top: 0;
   left: 0;
   overflow: hidden;
