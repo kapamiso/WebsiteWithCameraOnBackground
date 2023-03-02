@@ -8,6 +8,14 @@ function startCamera() {
       const videoElement2 = document.querySelector("#camera-2");
       videoElement.srcObject = stream;
       videoElement2.srcObject = stream;
+
+      videoElement.onloadedmetadata = (event) => {
+        videoElement.play();
+      };
+
+      videoElement2.onloadedmetadata = (event) => {
+        videoElement2.play();
+      };
     })
     .catch((error) => {
       console.log(error);
