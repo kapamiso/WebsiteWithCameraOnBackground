@@ -57,6 +57,7 @@ section:nth-child(2) > div > * {
 
 section:nth-child(3) {
   background-color: rgb(31, 31, 31);
+  background: linear-gradient(165deg, rgb(71, 71, 71) -20%, rgb(8, 8, 8) 90%);
 }
 
 h1 {
@@ -201,7 +202,6 @@ main {
   padding: 20px;
   color: rgb(7, 7, 7);
   border: 1px solid rgba(255, 255, 255, 0.144);
-  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.37);
 }
 
 .demo-card span {
