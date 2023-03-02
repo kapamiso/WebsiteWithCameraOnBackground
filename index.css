@@ -40,16 +40,27 @@ section:nth-child(2) div {
 
 h1 {
   font-size: 50px;
-  font-weight: 400;
+  font-weight: 600;
   color: rgb(32, 166, 255);
   margin: 0px;
 }
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2{
+    font-size: 20px;
+  }
+}
+
 
 h2 {
   margin: 0px;
   margin-top: 7px;
   font-weight: 300;
 }
+
 
 #camera,
 #camera-2 {
