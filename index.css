@@ -37,6 +37,7 @@ section:nth-child(1) .demo-card-gallery {
 section:nth-child(2) {
   background-color: rgb(24, 24, 24);
   padding-top: 200px;
+  box-shadow: 0px 0px 100px 120px rgb(24, 24, 24);
 }
 
 section:nth-child(2) > div {
@@ -130,9 +131,8 @@ h2 {
 main {
   background: linear-gradient(
     180deg,
-    rgb(0, 0, 0) -10%,
-    rgba(255, 255, 255, 0) 50vh,
-    rgb(24, 24, 24) 42%
+    rgba(0, 0, 0, 0.637) 0%,
+    rgba(255, 255, 255, 0) 30vh
   );
   display: flex;
   flex-direction: column;
