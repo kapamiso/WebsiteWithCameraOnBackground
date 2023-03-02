@@ -138,14 +138,15 @@ main {
 }
 
 .demo-card {
-  background: rgba(255, 255, 255, 0.664);
-  -webkit-backdrop-filter: blur(85px);
-  backdrop-filter: blur(85px);
+  background: rgba(255, 255, 255, 0.555);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   width: 300px;
   flex-grow: 1;
   border-radius: 8px;
   padding: 20px;
   color: rgb(7, 7, 7);
+  border: 1px solid rgba(255, 255, 255, 0.144);
 }
 
 .demo-card span {
