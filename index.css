@@ -124,10 +124,24 @@ h2 {
 .banner-section {
   padding-top: 4vh;
   height: 400px;
-    background: linear-gradient(
-    180deg,
-    rgba(3, 3, 3, 0.658) 0%,
-    rgba(0, 0, 0, 0) 270px
+  background: linear-gradient(
+    to bottom,
+    hsla(0, 0%, 0%, 0.76) 0%,
+    hsla(0, 0%, 0%, 0.75) 8.1%,
+    hsla(0, 0%, 0%, 0.723) 15.5%,
+    hsla(0, 0%, 0%, 0.681) 22.5%,
+    hsla(0, 0%, 0%, 0.627) 29%,
+    hsla(0, 0%, 0%, 0.563) 35.3%,
+    hsla(0, 0%, 0%, 0.492) 41.2%,
+    hsla(0, 0%, 0%, 0.418) 47.1%,
+    hsla(0, 0%, 0%, 0.342) 52.9%,
+    hsla(0, 0%, 0%, 0.268) 58.8%,
+    hsla(0, 0%, 0%, 0.197) 64.7%,
+    hsla(0, 0%, 0%, 0.133) 71%,
+    hsla(0, 0%, 0%, 0.079) 77.5%,
+    hsla(0, 0%, 0%, 0.037) 84.5%,
+    hsla(0, 0%, 0%, 0.01) 91.9%,
+    hsla(0, 0%, 0%, 0) 100%
   );
 
   position: absolute;
@@ -144,11 +158,10 @@ main {
   flex-direction: column;
   overflow: hidden;
   clip-path: inset(0 0 0 0);
-
 }
 
 @media only screen and (max-width: 768px) {
-  section:nth-child(1) .demo-card-gallery{
+  section:nth-child(1) .demo-card-gallery {
     margin-top: 50vh;
   }
 
