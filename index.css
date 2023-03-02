@@ -98,7 +98,8 @@ main {
   background: linear-gradient(
     160deg,
     rgba(5, 5, 5, 0.767) 0%,
-    rgba(255, 255, 255, 0) 70vh
+    rgba(255, 255, 255, 0) 70vh,
+    rgba(0, 0, 0, 0.774) 50%
   );
   display: flex;
   flex-direction: column;
@@ -141,7 +142,7 @@ main {
 }
 
 .demo-card .placeholder {
-  height: 200px;
+  height: 100px;
   background-image: url(https://docs.imagga.com/static/images/docs/sample/japan-605234_1280.jpg);
   background-repeat: no-repeat;
   background-position: center;
