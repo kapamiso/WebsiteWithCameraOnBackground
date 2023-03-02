@@ -139,8 +139,8 @@ main {
 
 .demo-card {
   background: rgba(255, 255, 255, 0.555);
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   width: 300px;
   flex-grow: 1;
   border-radius: 8px;
