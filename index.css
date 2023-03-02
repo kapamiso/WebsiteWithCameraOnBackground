@@ -47,7 +47,7 @@ h1 {
 
 h2 {
   margin: 0px;
-  margin-top: 20px;
+  margin-top: 7px;
   font-weight: 300;
 }
 
@@ -90,7 +90,7 @@ h2 {
 }
 
 .banner-section {
-  padding-top: 50px;
+  padding-top: 5px;
   margin-bottom: 50vh;
 }
 
@@ -111,6 +111,7 @@ main {
     overflow: auto;
     scroll-snap-type: x mandatory;
     padding: 15px;
+    margin: 0px 0px;
   }
   .phone-gallery .demo-card {
     min-width: 250px;
@@ -126,7 +127,7 @@ main {
 }
 
 .demo-card {
-  background: rgba(255, 255, 255, 0.699);
+  background: rgba(255, 255, 255, 0.664);
   -webkit-backdrop-filter: blur(85px);
   backdrop-filter: blur(85px);
   width: 300px;
