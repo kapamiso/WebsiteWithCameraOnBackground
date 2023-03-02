@@ -1,5 +1,9 @@
 function startCamera() {
-  const configs = { video: true };
+  const configs = {
+    video: {
+      facingMode: "user",
+    },
+  };
 
   navigator.mediaDevices
     .getUserMedia(configs)
