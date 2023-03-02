@@ -84,8 +84,7 @@ h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  
 }
 
 #camera-2 {
@@ -99,13 +98,15 @@ h2 {
   display: flex;
   justify-content: center;
   position: relative;
+  transform: scaleX(-1);
+
 }
 
 .camera::before {
   content: "😎";
   font-size: 64px;
   top: -50px;
-  left: 30px;
+  right: 30px;
   position: absolute;
 }
 
@@ -114,6 +115,7 @@ h2 {
 }
 
 .camera-background {
+  transform: scaleX(-1);
   position: absolute;
   top: 0;
   left: 0;
