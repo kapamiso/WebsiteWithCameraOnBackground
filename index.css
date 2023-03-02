@@ -130,7 +130,7 @@ h2 {
 main {
   background: linear-gradient(
     180deg,
-    rgba(3, 3, 3, 0.623) -18%,
+    rgb(0, 0, 0) -10%,
     rgba(255, 255, 255, 0) 50vh,
     rgb(24, 24, 24) 42%
   );
