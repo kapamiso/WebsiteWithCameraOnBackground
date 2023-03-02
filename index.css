@@ -22,7 +22,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: white;
   width: 100%;
-  clip-path: inset(0 0 0 0);
 }
 
 /*First section*/
@@ -32,6 +31,7 @@ section:nth-child(1) {
 
 section:nth-child(1) .demo-card-gallery {
   transform: translate(0px, 150px);
+  margin-top: 67vh;
 }
 
 /*Second section*/
@@ -122,22 +122,34 @@ h2 {
 
 .banner-section {
   padding-top: 4vh;
-  margin-bottom: 40vh;
+  height: 40vh;
+    background: linear-gradient(
+    180deg,
+    rgba(3, 3, 3, 0.582) 0%,
+    rgba(0, 0, 0, 0) 270px
+  );
+
+  position: absolute;
+  width: 100%;
+}
+
+.banner-section > div {
   max-width: 500px;
 }
 
 main {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.637) 0%,
-    rgba(255, 255, 255, 0) 30vh
-  );
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  clip-path: inset(0 0 0 0);
+
 }
 
 @media only screen and (max-width: 768px) {
+  section:nth-child(1) .demo-card-gallery{
+    margin-top: 50vh;
+  }
+
   .phone-gallery.demo-card-gallery {
     flex-wrap: nowrap;
     overflow-x: unset;
