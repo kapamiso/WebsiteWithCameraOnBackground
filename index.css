@@ -3,6 +3,7 @@
 :root {
   --page-margin: 5vw;
   --page-max-width: 1920px;
+  --primary-color: rgb(252, 44, 44);
 }
 
 .page-padding {
@@ -61,7 +62,7 @@ section:nth-child(3) {
 h1 {
   font-size: 50px;
   font-weight: 600;
-  color: rgb(32, 166, 255);
+  color: var(--primary-color);
   margin: 0px;
 }
 
@@ -125,7 +126,7 @@ h2 {
   height: 400px;
     background: linear-gradient(
     180deg,
-    rgba(3, 3, 3, 0.582) 0%,
+    rgba(3, 3, 3, 0.658) 0%,
     rgba(0, 0, 0, 0) 270px
   );
 
@@ -211,7 +212,7 @@ button {
   border-radius: 8px;
   border: 0px;
   margin-top: 15px;
-  background-color: rgb(68, 112, 255);
+  background-color: var(--primary-color);
   color: rgb(255, 255, 255);
   font-size: 17px;
 }
