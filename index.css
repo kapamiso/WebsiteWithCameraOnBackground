@@ -135,6 +135,7 @@ h2 {
 
 .banner-section > div {
   max-width: 500px;
+  padding-right: 15px;
 }
 
 main {
