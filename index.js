@@ -1,0 +1,17 @@
+function startCamera() {
+  const configs = { video: {} };
+
+  navigator.mediaDevices
+    .getUserMedia(configs)
+    .then((stream) => {
+      const videoElement = document.querySelector("#camera");
+      const videoElement2 = document.querySelector("#camera-2");
+      videoElement.srcObject = stream;
+      videoElement2.srcObject = stream;
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+}
+
+window.addEventListener("DOMContentLoaded", startCamera);
